@@ -1,7 +1,7 @@
 <?php
 
-function valami() {
-  echo "ASD";
+function hello_function() {
+  echo "HELLO WORLD";
 }
 
-valami();
+hello_function();
