@@ -1,0 +1,14 @@
+<?php
+
+require __DIR__.'/vendor/autoload.php';
+
+use PhpSnipper\App;
+
+define('BASE_PATH', __DIR__);
+define('APP_PATH', __DIR__ . DIRECTORY_SEPARATOR . 'src');
+define('SNIPPET_PATH', APP_PATH . DIRECTORY_SEPARATOR . 'Snippets');
+
+
+$application = new App();
+
+$application->init();
